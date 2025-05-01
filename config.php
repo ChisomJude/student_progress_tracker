@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "localhost"; #use ip of the server instead
+$username = "webuser";
+$password = "webspass";
 $database = "user_db";
 
 $conn = new mysqli($servername, $username, $password, $database);
